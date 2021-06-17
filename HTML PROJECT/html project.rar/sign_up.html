@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="sign_up.js"></script>
+    <link rel="stylesheet" type="text/css" href="sign_up.css">
+</head>
+<body>
+    <p id="mint1">ELITE HOSPITAL</p>
+    <a href="index.html" id="a">Home</a>
+    <p id="b">SIGN-UP</p>
+    <form name="myform" onsubmit="return validateForm()">
+        <div id="mint2">
+        First Name:<br>
+        <input type="text" class="mint3" name="in"><br>
+        Last Name:<br>
+        <input type="text" class="mint3" name="in"><br>
+        E-mail ID:<br>
+        <input type="email" class="mint3"><br>
+        Contact Number:<br>
+        <input type="text" class="mint3"><br><br>
+        Gender:&nbsp
+        <input type="radio" name="gender">Male&nbsp
+        <input type="radio" name="gender">Female&nbsp<br><br>
+        City:
+        <select class="mint3">
+            <option value="NA">NA</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Chandigarh">Chandigarh</option>
+        </select><br><br>
+        <input type="submit" value="submit" class="mint4">
+        <input type="reset" value="reset" class="mint4">
+        </div>
+    </form>
+    <p id="c">Already have an account?, then login <a href="">here</a></p>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+body {
+    background-color: rgb(0, 255, 170);
+}
+
+#a {
+    text-align: right;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#b {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: red;
+    font-weight: bold; 
+    border: 3px solid black;
+    padding: 10px 7px;
+}
+
+#mint1 {
+    text-align: center;
+    background-color:dodgerblue;
+    border: 10px solid Tomato;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mint2 {
+    background-image: url("background_texture.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px 550px;
+    background-position: center;
+}
+
+form {
+    text-align: center;
+    font-size: 22px;
+}
+
+.mint3 {
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.mint4 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#c {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}

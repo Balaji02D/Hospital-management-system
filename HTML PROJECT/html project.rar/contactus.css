@@ -1,0 +1,33 @@
+body
+{
+	background-image:url('check5.jpg');
+}
+#a {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+.b {
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.c {
+    text-align: center;
+    font-family: cursive;
+    font-size: : 20px;
+    color: red;
+}
+
+#d {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+#in{
+	background:rgb(90,90,90,0.5);
+}
